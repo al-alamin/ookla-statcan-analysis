@@ -1,0 +1,21 @@
+schema_version: 1
+summary: A local research fork comparing Ookla open speed-test data with Statistics
+  Canada internet-availability material, including documented data-processing and
+  Streamlit workflows.
+state: unknown
+intended_readers:
+- Researchers and maintainers of the broadband-analysis fork.
+consult_when:
+- Understanding project organization, setup/benchmark instructions or the documented
+  analysis and Streamlit workflow.
+watch_when:
+- Changes to README/benchmark instructions, data-processing scripts, notebook organization
+  or Streamlit source.
+current_capabilities:
+- README and BenchmarkInstructions.md document data processing, benchmark setup and
+  a Streamlit application; scripts/, src/, notebooks/ and streamlit/ are tracked.
+- Fork comparison records a local experiment-notebook commit, establishing local analysis
+  work; its results were not inspected.
+planned_capabilities:
+- README explicitly leaves the end-to-end results pipeline untested; start-to-finish
+  verification remains a documented gap.
